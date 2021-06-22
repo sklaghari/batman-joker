@@ -266,7 +266,7 @@ else{
             <SpeakerDivSmall onClick={toggle}>{playing?<FontAwesomeIcon icon={faVolumeUp} size='1x'/>
             :<FontAwesomeIcon icon={faVolumeMute} size='1x'/>}</SpeakerDivSmall>
           </SocialMediaDiv>
-          <H2>Arkham City</H2>
+          <H2>Gotham City</H2>
           <SpeakerDiv onClick={toggle}>{playing?<FontAwesomeIcon icon={faVolumeUp} size='2x'/>:<FontAwesomeIcon icon={faVolumeMute} size='2x'/>}</SpeakerDiv>
         </TopContainer>
         <MiddleContainer><H5>{status}</H5></MiddleContainer>
